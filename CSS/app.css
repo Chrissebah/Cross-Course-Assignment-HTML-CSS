@@ -69,6 +69,8 @@ nav img{
     position: absolute;
     top: 25%;
     left: 36.5%;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -170,10 +172,7 @@ nav .fa{
 }
 
 @media (max-width: 700px){
-    .text-box h1{
-        font-size: 20px;
-
-    }
+   
     .nav-links ul li{
         display: block;
 

@@ -15,6 +15,11 @@
     
 }
 
+img{
+    height: auto;
+    max-width: 60%;
+}
+
 nav{
     display: flex;
     padding: 2% 6%;
@@ -69,14 +74,12 @@ nav img{
     position: absolute;
     top: 25%;
     left: 36.5%;
-    width: 100%;
-    height: auto;
 }
 
 
 
 .text-box{
-    width: 90%;
+    width: 40%;
     color: rgb(255, 255, 255);
     position: absolute;
     top: 60%;

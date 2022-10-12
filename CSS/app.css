@@ -65,31 +65,26 @@ nav img{
 
 }
 
+.logo{
+    position: absolute;
+    top: 25%;
+    left: 36.5%;
+}
+
+
+
 .text-box{
     width: 90%;
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    /* border: 1px solid white;
-    background: white; */
 }
 
-.text-box h1{
-    font-size: 62px;
 
-}
-
-.text-box p{
-    margin: 10px 0 40px;
-    font-size: 24px;
-    color: rgb(255, 255, 255);
-
-}
-
-.more-btn{
+.games-btn{
     display: inline-block;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -102,12 +97,72 @@ nav img{
 
 }
 
-.more-btn:hover{
+.games-btn:hover{
     border: 1px solid #ff0000;
     background: #ff0000;
     transition: 1s;
 
 }
+
+.about-button{
+    width: 30%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.about-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.about-btn:hover{
+    border: 1px solid #ff0000;
+    background: #ff0000;
+    transition: 1s;
+}
+
+.contact-button{
+    width: 30%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.contact-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.contact-btn:hover{
+    border: 1px solid #ff0000;
+    background: #ff0000;
+    transition: 1s;
+
+}
+
 
 nav .fa{
     display: none;

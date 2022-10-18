@@ -83,14 +83,11 @@ nav img{
 }
 
 .buttons{
-    align-items: center;
-}
-
-.games-button{
     color:rgb(255, 255, 255);
     text-align: center;
 
 }
+
 
 
 .games-btn{
@@ -113,11 +110,6 @@ nav img{
 
 }
 
-.about-button{
-    color: rgb(255, 255, 255);
-    text-align: center;
-   
-}
 
 
 .about-btn{
@@ -141,11 +133,6 @@ nav img{
 
 }
 
-.contact-button{
-    color: rgb(255, 255, 255);
-    text-align: center;
-
-}
 
 
 .contact-btn{

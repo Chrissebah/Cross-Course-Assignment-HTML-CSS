@@ -9,6 +9,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
+    background-color: black;
     background-image: url("/images/Backgroud\ image.jpg");
     background-size: cover;
     background-repeat: no-repeat;

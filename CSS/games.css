@@ -83,7 +83,7 @@ nav img{
 }
 
 .games-list{
-    min-height: 100vh;
+    min-height: 800px;
     width: 100%;
     background-color: black;
     background-image: url("/images/20466259.jpg");
@@ -92,6 +92,7 @@ nav img{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    align-items: center;
 }
 
 .buttons{
@@ -100,9 +101,12 @@ nav img{
 
 }
 
-
-
-
+#rectangle{
+    width: 1080px;
+    height: 820px;
+    background: #444444;
+   
+}
 
 
 nav .fa{
@@ -110,6 +114,17 @@ nav .fa{
 
 }
 
+.footer{
+    background-color: black;
+    height: 20px;
+
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+   
+}
 
 @media (max-width: 600px){
    
@@ -142,5 +157,6 @@ nav .fa{
     }
 
 }
+
 
 

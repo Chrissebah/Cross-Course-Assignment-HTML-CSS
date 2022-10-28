@@ -7,9 +7,14 @@
 }
 
 .header{
-    min-height: 100vh;
     width: 100%;
-    background: white
+    height: auto;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 
 }
 
@@ -40,7 +45,7 @@ nav img{
 }
 
 .nav-links ul li a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 16px;
     
@@ -70,7 +75,7 @@ nav .fa{
 }
 
 .text-box {
-    max-width: 900px;
+    max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -78,10 +83,21 @@ nav .fa{
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: center;
-    background-color: #D9D9D9;
-
-
+    min-height: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
 }
+
+#rectangle{
+    width: 1080px;
+    height: 805px;
+    background: #D9D9D9;
+    
+}
+
 
 .text-box h1 {
     font-size: 44px;
@@ -94,6 +110,20 @@ nav .fa{
     gap: 1rem;
 
 }
+
+.footer{
+    background-color: black;
+    height: 20px;
+    
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+   
+}
+
+
 
 @media (max-width: 700px){
     .text-box h1{

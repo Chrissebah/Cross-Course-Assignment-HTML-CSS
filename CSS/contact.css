@@ -75,11 +75,8 @@ nav .fa{
 }
 
 .text-box {
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    max-width: 80%;
+    margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: center;
@@ -92,7 +89,7 @@ nav .fa{
 }
 
 #rectangle{
-    width: 1080px;
+    width: 80%;
     height: 805px;
     background: #D9D9D9;
     
@@ -127,14 +124,13 @@ nav .fa{
 
 @media (max-width: 700px){
 
-    .text-box{ 
-        max-width: 700px;
+    .text-box{
+        width: 100%;
     }
 
     .text-box h1{
         font-size: 38px;
     }
-
 
     .text-box p{
         font-size: 20px;

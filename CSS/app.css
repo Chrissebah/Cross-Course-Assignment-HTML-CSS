@@ -83,15 +83,17 @@ nav img{
 }
 .main-page{
     height: 1080px;
-    width: 1920px;
+    width: auto;
     background-color: black;
     background-image: url("/images/Backgroud\ image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
+    display: flex, inline-block;
     flex-direction: column;
+    margin: auto;
     gap: 1rem;
     align-items: center;
+
 }
 
 .buttons{

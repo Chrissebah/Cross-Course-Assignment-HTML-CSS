@@ -82,7 +82,7 @@ nav img{
 
 }
 .main-page{
-    height: 1080px;
+    height: 800px;
     width: auto;
     background-color: black;
     background-image: url("/images/Backgroud\ image.jpg");
@@ -96,8 +96,13 @@ nav img{
 
 }
 
+.logo{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 .buttons{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     text-align: center;
 
 }
@@ -108,10 +113,10 @@ nav img{
     display: inline-block;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     padding: 12px 34px;
     font-size: 18px;
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(0, 0, 0, 0.65);
     cursor: pointer;
     border-radius: 10px;
 
@@ -133,7 +138,7 @@ nav img{
     border: 1px solid rgb(255, 255, 255);
     padding: 12px 53px;
     font-size: 18px;
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(0, 0, 0, 0.65);
     position: relative;
     cursor: pointer;
     border-radius: 10px;
@@ -156,7 +161,7 @@ nav img{
     border: 1px solid rgb(255, 255, 255);
     padding: 12px 45.5px;
     font-size: 18px;
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.24);
     cursor: pointer;
     border-radius: 10px;
     

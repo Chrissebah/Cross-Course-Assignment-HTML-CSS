@@ -133,7 +133,7 @@ nav img{
     align-items: center;
     align-content: center;
     margin-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 35px;
     
 }
 
@@ -143,6 +143,19 @@ nav img{
     margin: 5px;
     font-family: 'Jockey One', sans-serif;
     font-size: 20px;
+    cursor: pointer;
+
+}
+
+.product-buttons:hover{
+    border: 1px solid #000000;
+    background: #44f000;
+    transition: 1s;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
 
 }
 

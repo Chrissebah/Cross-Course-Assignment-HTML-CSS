@@ -81,99 +81,83 @@ nav img{
     width: 100%;
 
 }
-.main-page{
-    height: 800px;
-    width: auto;
-    background-color: black;
-    background-image: url("/images/Backgroud\ image.jpg");
+
+.games-list{
+    min-height: 800px;
+    width: 100%;
+    background-color: #444444;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex, inline-block;
+    display: flex;
     flex-direction: column;
-    margin: auto;
     gap: 1rem;
     align-items: center;
-
+    align-content: center;
 }
 
-.logo{
-    margin-bottom: 10px;
-    margin-top: 10px;
+.games-list h1{
+    color: white;
 }
 
-.buttons{
-    color:rgb(0, 0, 0);
-    text-align: center;
-
-}
-
-
-
-.games-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
-    padding: 12px 34px;
-    font-size: 18px;
-    background: rgba(0, 0, 0, 0.65);
-    cursor: pointer;
-    border-radius: 10px;
-
-}
-
-.games-btn:hover{
-    border: 1px solid #ff0000;
-    background: #ff0000;
-    transition: 1s;
-
-}
-
-
-
-.about-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
-    padding: 12px 53px;
-    font-size: 18px;
-    background: rgba(0, 0, 0, 0.65);
+.wrapper{
+    max-width: fit-content;
     position: relative;
-    cursor: pointer;
-    border-radius: 10px;
-
-}
-
-.about-btn:hover{
-    border: 1px solid #ff0000;
-    background: #ff0000;
-    transition: 1s;
-
-}
-
-
-
-.contact-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 0, 0);
-    padding: 12px 45.5px;
-    font-size: 18px;
-    background: rgba(0, 0, 0, 0.65);
-    cursor: pointer;
-    border-radius: 10px;
+    max-width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    width: 80%;
+    color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     
 }
 
-.contact-btn:hover{
-    border: 1px solid #ff0000;
-    background: #ff0000;
-    transition: 1s;
+.price{
+    font-family: 'Jockey One', sans-serif;
+    font-size: 24px;
+    
+}
+
+.gamecover{
+    max-width: 300px;
+    align-items: center;
+    text-align: center;
+    max-height: 400px;
+    padding: 3px;
 
 }
 
+.gamecover img{
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    
+}
+
+.product-buttons{
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.product-buttons:hover{
+    border: 1px solid #000000;
+    background: #44f000;
+    transition: 1s;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+
+}
 
 nav .fa{
     display: none;
@@ -183,7 +167,7 @@ nav .fa{
 .footer{
     background-color: black;
     height: 20px;
-    
+
 }
 
 .footer p{
@@ -191,10 +175,14 @@ nav .fa{
     text-align: center;
    
 }
+   
 
 
+@media (max-width: 700px){
 
-@media (max-width: 600px){
+    .wrapper{
+        flex-direction: column;
+    }
    
     .nav-links ul li{
         display: block;
@@ -203,7 +191,7 @@ nav .fa{
     .nav-links{
         position: absolute;
         background: #f43636;
-        height: 142vh;
+        height: 100vh;
         width: 200px;
         top: 0;
         right: -200px;
@@ -225,5 +213,6 @@ nav .fa{
     }
 
 }
+
 
 

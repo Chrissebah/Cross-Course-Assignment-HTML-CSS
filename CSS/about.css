@@ -7,13 +7,11 @@
 }
 
 .header{
-    min-height: 100vh;
-    background-color: white;
-    background-image: url("/images/GameHub_Logo\ 1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 100%;
+    height: auto;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -47,7 +45,7 @@ nav img{
 }
 
 .nav-links ul li a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 16px;
     
@@ -77,16 +75,21 @@ nav .fa{
 }
 
 .text-box {
-    max-width: 960px;
+    height: 800px;
+    background-color: white;
+    background-image: url("/images/GameHub_Logo\ 1.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.171);
-
+   
 
 }
 
@@ -100,6 +103,18 @@ nav .fa{
     font-size: 26px;
     gap: 1rem;
 
+}
+
+.footer{
+    background-color: black;
+    height: 20px;
+    
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+   
 }
 
 @media (max-width: 700px){

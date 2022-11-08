@@ -7,8 +7,6 @@
 }
 
 .header{
-    width: 100%;
-    height: auto;
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +16,8 @@
 
 }
 
-.logo{ display: flex;
+.logo{ 
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -37,7 +36,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-
+    
 }
 
 nav img{

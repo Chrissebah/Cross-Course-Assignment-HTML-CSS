@@ -4,89 +4,104 @@
 
 
 <head>
-    <title>GameHub</title>
+    <title>List of games</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="CSS/app.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,500;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/productpage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     
-
-
 
 </head>
 
 
         <body>
-            <section class="header">
+            <header>
                 <nav>
                     <a href="" target=""><img src="/images/Logo small.png"  alt="GameHub Logo"/> </a>
+                    <button class="hamburger" id="hamburger">
+                         <i class="fas fa-bars"></i>
+                    </button>
 
-                    <div class="nav-links" id="navlinks">
-                        <i class="fa fa-times" onclick="hidemenu()"></i>
-
-                        <ul>
-                            <li><a href="">Home</a> </li>
+                        <ul class="nav-ul" id="nav-ul">
+                            <li><a href="index.html">Home</a> </li>
                             <li><a href="games.html">List of Games</a> </li>
                             <li><a href="about.html">About Us</a> </li>
                             <li><a href="contact.html">Contact Us</a> </li>
                             <li><a href="">Cart</a> </li>
 
                         </ul>
-
-
-                    </div>
-
-                    <i class="fa fa-bars" onclick="showmenu()"></i>
                 
 
 
                 </nav>
-
-            </section>
      
-            <section class="main-page">
+            </header>
 
-                <div class="">
+            <main class="product-page">
 
-                </div>
+                <h1>Forge Legend</h1>
+
+                        <div class="gamecover">
+                            <img src="images/GameHub_covers10.jpg" alt="Forge Legend">
+                        </div>
+
+                        <div class="description">
+                            <h2><u>Game Overview</u></h2></br>
+                            <p>Forge legend is a massively multiplayer online role-playing game that was released in the summer of 2022.  
+
+                            </br>
+                                Set in a universe where elves are at war with a misterious enemy of the dark, you must fight your way through many dungeons, bosses and build up your power through companions, items and friends.
+                                
+                            </br>
+
+                                You are able to create your own character and choose what type of fighter you are, and how you will help your side win the battles and war.
+                                A few skill classes you can choose from are: brute, healer, sourcerer, tank and many more.
+
+                            </br>
+                                
+                                This game was given a 98% rating at launch and is still mainting a rating of 94% currently.
+
+                            </br>
+                                
+                            </p>
+
+                        </br>
+
+                            <h2><u>Important Information</u></h2></br>
+
+                            <p>DLCs are sold seperately.
+                            </br>
+                                23GB of additional space is required for latest updates.
+                            </br>
+                                This game requires a stable internet connection to play.
+                            </br>
+                                Anyone under the age of 16 must have parental guidance.
+                            </p>
+
+                        </div>
+
+
+        
+            </main>
+
+
+
+        <footer class="footer">
+            <p>GAMEHUB LTD.</p>
+        </footer>
             
-            
-            
-            
-            </section>
+        
 
 
-            <footer class="footer">
-                <p>GAMEHUB LTD.</p>
-            </footer>
+             <!------------------- Javascript for Menu Toggle ---------------->
 
-
-            <!------------------- Javascript for Menu Toggle ---------------->
-
-            <script>
-                
-                var navlinks = document.getElementById("navlinks")
-
-                function showmenu(){
-                    navlinks.style.right = "0";
-                }
-
-                function hidemenu(){
-                    navlinks.style.right = "-200px";
-
-                }
-
-            </script>
-
-
+             <script src="script.js"></script>
 
 
 
 
         </body>
-
-
-
 </html>

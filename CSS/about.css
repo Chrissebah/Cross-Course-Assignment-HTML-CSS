@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
     
 }
 
@@ -39,7 +38,7 @@
 
 #rectangle{
     width: 70%;
-    height: 800px;
+    height: 750px;
     background: #ffffff2c;
     
 }
@@ -48,12 +47,12 @@
 @media (max-width: 750px){
     
     .about-box h1{
-        font-size: 38px;
+        font-size: 34px;
 
     }
 
     .about-box p{
-        font-size: 22px;
+        font-size: 20px;
     }
 
 

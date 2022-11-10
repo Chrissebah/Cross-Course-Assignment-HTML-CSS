@@ -47,8 +47,12 @@
 @media (max-width: 750px){
     
     .about-box h1{
-        font-size: 34px;
+        font-size: 30px;
 
+    }
+
+    .about-box{
+        margin-top: 10px;
     }
 
     .about-box p{

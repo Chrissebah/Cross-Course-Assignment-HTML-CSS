@@ -6,82 +6,13 @@
     
 }
 
-.header{
-    width: 100%;
-    height: auto;
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-
-}
-
-nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav img{
-    width: 100px;
-    
-}
-
-.nav-links{
-    flex: 1;
-    text-align: right;
-
-}
-
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-
-}
-
-.nav-links ul li a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 16px;
-    
-
-}
-
-.nav-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.7s;
-
-}
-
-.nav-links ul li:hover::after{
-    width: 100%;
-
-}
-
-
-nav .fa{
-    display: none;
-
-}
-
 .text-box {
-    max-width: 80%;
-    margin: auto;
+    max-width: 100%;
+    background-color: white;
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: center;
-    min-height: 800px;
-    background-color: white;
+    min-height: auto;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -90,7 +21,7 @@ nav .fa{
 
 #rectangle{
     width: 80%;
-    height: 805px;
+    height: 800px;
     background: #D9D9D9;
     
 }
@@ -108,21 +39,10 @@ nav .fa{
 
 }
 
-.footer{
-    background-color: black;
-    height: 20px;
-    
-}
-
-.footer p{
-    color: white;
-    text-align: center;
-   
-}
 
 
 
-@media (max-width: 700px){
+@media (max-width: 750px){
 
     .text-box{
         width: 100%;
@@ -136,33 +56,6 @@ nav .fa{
         font-size: 20px;
 
     }
-    .nav-links ul li{
-        display: block;
-
-    }
-    .nav-links{
-        position: absolute;
-        background: #f43636;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-
-    }
-    nav .fa{
-        display: block;
-        color: rgb(255, 255, 255);
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-
-    }
-    .nav-links ul{
-        padding: 30px;
-    }
-
+    
 }
 

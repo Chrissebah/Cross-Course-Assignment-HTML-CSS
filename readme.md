@@ -12,6 +12,14 @@
 
     https://benevolent-ganache-014017.netlify.app/
 
+## Link to prototype
+
+https://www.figma.com/file/LnANeROcgxnVAB5ho4oJ5h/First-Year-Cross-Course-Assignment-Brief-Three-Christian-Gr%C3%B8tan?node-id=17%3A11
+
+## Changes from prototype
+
+Added header and footer for a more professional look. Removed some of the background pictures due to them not looking as good in the final product. Changed layout of buttons on the homepage due to alignment issues when trying to make the website responsive.
+
 ## Authors
 
     Christian Sellie Grøtan - Creator/Owner

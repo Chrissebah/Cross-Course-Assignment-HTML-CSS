@@ -49,6 +49,28 @@
 
 }
 
+.button{
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #000000;
+
+}
+
+.button:hover{
+    border: 2px solid #000000;
+    background: #44f000;
+    transition: 1s;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Jockey One', sans-serif;
+    cursor: pointer;
+}
+
 .screenshots{
     justify-content: center;
     align-items: center;

@@ -22,21 +22,35 @@
 
 .product-page h1{
     color: white;
+    font-size: 40px;
     align-items: center;
     text-align: center;
+   
 }
 
 .gamecover{
     max-width: 300px;
     max-height: 400px;
+    position: relative;
 
 }
 
 .gamecover img{
     margin-bottom: 10px;
-    width: 200px;
-    height: 256px;
+    width: 300px;
+    height: 400px;
     
+}
+
+.gamecover h2{
+    text-align: center;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 42px;
+    color: black;
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .description{

@@ -99,7 +99,7 @@ th:last-child{
 
 @media (max-width: 750px){
 
-    .wrapper{
+    .cart{
         flex-direction: column;
     }
    

@@ -65,6 +65,36 @@ td img{
 
 }
 
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.total-price table{
+    border-top: 3px solid #1B203D;
+    width: 100%;
+    max-width: 470px;
+
+}
+
+td:last-child{
+    text-align: right;
+
+}
+
+th:last-child{
+    text-align: right;
+
+}
+
+.purchase{
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
 
 
 @media (max-width: 750px){

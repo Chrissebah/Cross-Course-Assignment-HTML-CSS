@@ -18,7 +18,10 @@ https://www.figma.com/file/LnANeROcgxnVAB5ho4oJ5h/First-Year-Cross-Course-Assign
 
 ## Changes from prototype
 
-Added header and footer for a more professional look. Removed some of the background pictures due to them not looking as good in the final product. Changed layout of buttons on the homepage due to alignment issues when trying to make the website responsive.
+Added header and footer one every page for a more professional look. Removed some of the background pictures due to them not looking as good in the final product. Changed layout of buttons on the homepage due to alignment issues when trying to make the website responsive.
+Added a sign up page as a filler for selling games.
+Added a cart.
+
 
 ## Authors
 

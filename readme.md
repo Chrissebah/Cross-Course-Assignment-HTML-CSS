@@ -1,16 +1,16 @@
 # Project Title
 
-    Cross Course Assignment HTML CSS GameHub
+Cross Course Assignment HTML CSS GameHub
 
 ## Description
 
-    This is my first year, HTML and CSS assignment. The task is to make a fully functional webpage out of the prototype made in Figma.  
-    I am tasked with both learning HTML & CSS and using it to create a deployed website, to show off the skills I have learned.
-    The website needs to be responsive on different screen sizes, colorblind friendly and easy to navigate through.
+This is my first year, HTML and CSS assignment. The task is to make a fully functional webpage out of the prototype made in Figma.  
+I am tasked with both learning HTML & CSS and using it to create a deployed website, to show off the skills I have learned.
+The website needs to be responsive on different screen sizes, colorblind friendly and easy to navigate through.
 
 ### Deployed Website
 
-    https://benevolent-ganache-014017.netlify.app/
+https://benevolent-ganache-014017.netlify.app/
 
 ## Link to prototype
 
@@ -31,4 +31,12 @@ The tables I have on my checkout and checkoutsuccess pages came back with some i
 
 ## Authors
 
-    Christian Sellie Grøtan - Creator/Owner
+Christian Sellie Grøtan - Creator/Owner
+
+## Acknowledgements
+
+Eric Pretzinger - Second year student - Discord
+Abidev - Teacher - Discord
+Jøren Engelund - Second year student - Discord
+Siya Hlengwa - Online Staff - Discord
+Oliver Dipple - Teacher - Discord

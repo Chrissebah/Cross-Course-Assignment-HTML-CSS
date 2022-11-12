@@ -82,6 +82,12 @@ h1{
 
 }
 
+p{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: red;
+}
+
 
 
 @media (max-width: 800px){

@@ -27,7 +27,9 @@ Added a cart.
 I used the javascript code from this youtube video: https://www.youtube.com/watch?v=ydZc17rlR5E&ab_channel=FlorinPop
 The reason I chose to use this javascript is because we have not covered it yet, but it looks much better than the checkbox hack and is something I would look to learn to do in the future.
 
-The tables I have on my checkout and checkoutsuccess pages came back with some issues that I was unsure how to fix. I really only made it all last minute and so have not had the time to really look more closely at it.
+The tables I have on my checkout and checkoutsuccess pages came back with some issues that I was unsure how to fix. I really only made it all last minute and so have not had the time to look more closely at it.
+
+I am hoping these issues wont be a problem as the site itself still works as it should without any problems.
 
 ## Authors
 

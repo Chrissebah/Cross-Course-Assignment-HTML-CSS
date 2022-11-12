@@ -66,12 +66,21 @@ h1{
 
 }
 
-.buttons {
-    display: flex;
-    margin-right: 20px;
+.button {
+    overflow: hidden;
+    width: 200px;
+    height: min-content;
+    position: relative;
+    align-items: flex-end;
     cursor: pointer;
+    
 }
 
+.button:hover{
+    background: #44f000;
+    transition: 1s;
+
+}
 
 
 

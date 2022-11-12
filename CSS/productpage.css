@@ -97,14 +97,5 @@
 }
 
 
-@media (max-width: 750px){
-
-    .wrapper{
-        flex-direction: column;
-    }
-   
-
-}
-
 
 

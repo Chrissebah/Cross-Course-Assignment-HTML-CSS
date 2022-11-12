@@ -30,12 +30,14 @@
 .text-box h1 {
     font-size: 44px;
     gap: 1rem;
+    margin-bottom: 15px;
 
 }
 
 .text-box p {
     font-size: 26px;
     gap: 1rem;
+    margin-bottom: 25px;
 
 }
 

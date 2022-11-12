@@ -29,6 +29,8 @@ The reason I chose to use this javascript is because we have not covered it yet,
 
 The tables I have on my checkout and checkoutsuccess pages came back with some issues that I was unsure how to fix. I really only made it all last minute and so have not had the time to look more closely at it.
 
+I used this site(https://codepen.io/theresa-e/pen/BOBQxR) as inspiration when adding my checkout page, which also helped me when making the sign up page.
+
 I am hoping these issues wont be a problem as the site itself still works as it should without any problems.
 
 ## Authors

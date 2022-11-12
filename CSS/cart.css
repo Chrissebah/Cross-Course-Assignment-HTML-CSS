@@ -94,6 +94,12 @@ th:last-child{
 
 }
 
+.purchase:hover{
+    background: #44f000;
+    transition: 1s;
+    
+}
+
 
 
 

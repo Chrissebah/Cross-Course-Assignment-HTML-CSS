@@ -22,6 +22,12 @@ Added header and footer one every page for a more professional look. Removed som
 Added a sign up page as a filler for selling games.
 Added a cart.
 
+## Other information
+
+I used the javascript code from this youtube video: https://www.youtube.com/watch?v=ydZc17rlR5E&ab_channel=FlorinPop
+The reason I chose to use this javascript is because we have not covered it yet, but it looks much better than the checkbox hack and is something I would look to learn to do in the future.
+
+The tables I have on my checkout and checkoutsuccess pages came back with some issues that I was unsure how to fix. I really only made it all last minute and so have not had the time to really look more closely at it.
 
 ## Authors
 

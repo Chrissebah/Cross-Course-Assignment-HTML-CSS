@@ -40,17 +40,12 @@
     
 }
 
-.buttons{
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-
-}
 
 .price{
     text-align: center;
     font-family: 'Jockey One', sans-serif;
     font-size: 24px;
+    margin-bottom: 10px;
     
 }
 
@@ -68,7 +63,8 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
     width: 200px;
@@ -94,7 +90,9 @@
     align-items: center;
     align-content: center;
     justify-content: center;
+    text-decoration: none;
     background-color: white;
+    color: black;
     padding: 5px;
     margin: 5px;
     font-family: 'Jockey One', sans-serif;
@@ -106,7 +104,6 @@
 }
 
 .product-buttons:hover{
-    border: 2px solid #000000;
     background: #44f000;
     transition: 1s;
     padding: 5px;

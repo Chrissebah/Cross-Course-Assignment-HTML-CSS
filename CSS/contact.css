@@ -26,6 +26,11 @@
     
 }
 
+.location{
+    align-items: center;
+    align-content: center;
+}
+
 
 .text-box h1 {
     font-size: 44px;
@@ -63,6 +68,11 @@
 
     .text-box p{
         font-size: 20px;
+
+    }
+
+    .location{
+        width: 260px;
 
     }
     

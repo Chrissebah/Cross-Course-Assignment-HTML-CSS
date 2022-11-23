@@ -65,6 +65,8 @@
 
 .button{
     background-color: white;
+    color: black;
+    text-decoration: none;
     padding: 5px;
     margin: 5px;
     font-family: 'Jockey One', sans-serif;
@@ -93,6 +95,16 @@
 
 .screenshots img{
     width: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+@media (max-width: 750px) {
+    .screenshots img{
+        width: 300px;
+    }
     
 }
 

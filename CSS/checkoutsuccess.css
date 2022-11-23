@@ -38,6 +38,8 @@
 .back{
     margin-top: 20px;
     background-color: white;
+    text-decoration: none;
+    color: black;
     padding: 5px;
     margin: 5px;
     font-family: 'Jockey One', sans-serif;

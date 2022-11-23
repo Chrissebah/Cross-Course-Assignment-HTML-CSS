@@ -68,11 +68,20 @@ h1{
 
 .button {
     overflow: hidden;
-    width: 200px;
+    width: 150px;
     height: min-content;
     position: relative;
     align-items: flex-end;
     cursor: pointer;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #000000;
     
 }
 

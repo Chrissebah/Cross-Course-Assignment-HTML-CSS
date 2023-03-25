@@ -53,6 +53,22 @@
 
 }
 
+.SubjectField {
+    margin-bottom: 5px;
+  }
+  .EmailField {
+    margin-bottom: 5px;
+  }
+  .AddressField {
+    margin-bottom: 7px;
+  }
+  .NameField {
+    margin-bottom: 5px;
+  }
+
+  .submit {
+    margin-bottom: 5px;
+  }
 
 
 

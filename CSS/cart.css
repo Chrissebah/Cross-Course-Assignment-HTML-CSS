@@ -89,19 +89,20 @@ th:last-child{
 }
 
 .purchase{
-    background-color: white;
+    background: #44f000;
     color: black;
     text-decoration: none;
-    font-size: 18px;
-    padding: 5px;
+    font-size: 20px;
+    padding: 8px;
     margin: 5px;
     cursor: pointer;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
 
 }
 
 .purchase:hover{
-    background: #44f000;
+    background-color: white;
     transition: 1s;
     
 }

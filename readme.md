@@ -39,8 +39,8 @@ Christian Sellie Grøtan - Creator/Owner
 
 ## Acknowledgements
 
-Eric Pretzinger - Second year student - Discord
-Abidev - Teacher - Discord
-Jøren Engelund - Second year student - Discord
-Siya Hlengwa - Online Staff - Discord
+Eric Pretzinger - Second year student - Discord </br>
+Abidev - Teacher - Discord </br>
+Jøren Engelund - Second year student - Discord </br>
+Siya Hlengwa - Online Staff - Discord </br>
 Oliver Dipple - Teacher - Discord
